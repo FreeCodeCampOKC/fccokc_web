@@ -1,0 +1,25 @@
+{
+  "name": "interest-calculator-steps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chris-tse/interest-calculator-steps.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chris-tse/interest-calculator-steps/issues"
+  },
+  "homepage": "https://github.com/chris-tse/interest-calculator-steps#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "eslint": "^7.10.0",
+    "prettier": "^2.1.2"
+  }
+}
