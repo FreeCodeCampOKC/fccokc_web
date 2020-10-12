@@ -4,10 +4,13 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{{ title + ' - ' if title else '' }}freeCodeCamp Oklahoma</title>
+    <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
 
 	{{ head | safe }}
 </head>
 <body>
+    {% include 'nav.njk' %}
+
 	{{ content | safe }}
 </body>
 </html>

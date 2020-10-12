@@ -1,0 +1,7 @@
+<nav>
+    <ul>
+        {%- for navItem in navItems-%}
+            <li {% if page.url == navItem.url %}class="active"{% endif %}> <a href="{{navItem.url}}">{{navItem.displayText}}</a> </li>
+        {%- endfor -%}
+    </ul>
+</nav>
