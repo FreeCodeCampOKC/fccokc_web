@@ -5,12 +5,27 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{{ title + ' - ' if title else '' }}freeCodeCamp Oklahoma</title>
     <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
 	{{ head | safe }}
 </head>
 <body>
-    {% include 'nav.njk' %}
+    
+	<div id="container">
+		{% include 'nav.njk' %}
 
-	{{ content | safe }}
+		<main id="main">
+			<article class="post">
+				<div class="entry-content">
+					{{ content | safe }}
+				</div>
+			</article>
+		</main>
+		
+		{% include 'footer.njk' %}
+	</div>
+
+	
 </body>
 </html>

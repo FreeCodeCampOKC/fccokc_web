@@ -1,0 +1,49 @@
+---
+title: Techlahoma Hall of Fame
+layout: layouts/base.njk
+---
+
+<h1>Techlahoma Hall of Fame</h1>
+
+<script>
+    let $ = document.querySelector
+
+    fetch('/scripts/people.json')
+        .then(res => res.json())
+        .then(data => {
+            let peopleJSON = data.people
+
+            for (let person of peopleJSON) {
+                let personCard = document.createElement('div')
+                personCard.className = 'person-card'
+
+                let personName = document.createElement('h2')
+                personName.textContent = person.name
+                personCard.append(personName)
+
+                let personBio = document.createElement('p')
+                personBio.textContent = person.bio
+                personCard.append(personBio)
+
+                let personFooter = document.createElement('footer')
+                person.contact.forEach(contact => {
+                    if (!contact.link) {
+                        let contactString = document.createElement('p')
+                        contactString.textContent = `${contact.text}: ${contact.url}`
+                        personFooter.append(contactString)
+                        return
+                    }
+                    let contactLinkWrapper = document.createElement('p')
+
+                    let contactLink = document.createElement('a')
+                    contactLink.href = contact.url
+                    contactLink.textContent = contact.text
+                    contactLinkWrapper.append(contactLink)
+                    personFooter.append(contactLinkWrapper)
+                })
+
+                personCard.append(personFooter)
+                document.querySelector('.entry-content').append(personCard)
+            }
+        })
+</script>
