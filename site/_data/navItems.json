@@ -1,0 +1,18 @@
+[
+    {
+        "displayText": "Home",
+        "url": "/"
+    },
+    {
+        "displayText": "Slack",
+        "url": "/slack/"
+    },
+    {
+        "displayText": "People",
+        "url": "/people/"
+    },
+    {
+        "displayText": "Resources",
+        "url": "/resources/"
+    }
+]

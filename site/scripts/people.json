@@ -1,0 +1,62 @@
+{
+    "people": [
+        {
+            "name": "Alex Ayon",
+            "contact": [
+                {
+                    "text": "Twitter",
+                    "url": "https://twitter.com/AlexAyon12",
+                    "link": true
+                },
+                {
+                    "text": "GitHub",
+                    "url": "https://github.com/alex-code4okc",
+                    "link": true
+                },
+                {
+                    "text": "Slack",
+                    "url": "@Alex Ayon",
+                    "link": false
+                }
+            ],
+            "bio": "FreeCodeCampOK co-organizer. Software Engineer at Anautics. California raised. UCSC Alum, go Slugs!"
+        },
+        {
+            "name": "Chris Tse",
+            "contact": [
+                {
+                    "text": "Twitter",
+                    "url": "https://twitter.com/ChrisMTse",
+                    "link": true
+                },
+                {
+                    "text": "GitHub",
+                    "url": "https://github.com/chris-tse",
+                    "link": true
+                },
+                {
+                    "text": "Slack",
+                    "url": "@Chris Tse",
+                    "link": false
+                }
+            ],
+            "bio": "FreeCodeCampOK co-organizer. Software Engineer at Oracle. Big fan of anime, mechanical keyboards, and PC building."
+        },
+        {
+            "name": "Kimberly Collins",
+            "contact": [
+                {
+                    "text": "GitHub",
+                    "url": "https://github.com/kacollins",
+                    "link": true
+                },
+                {
+                    "text": "Slack",
+                    "url": "@kimberlycollins",
+                    "link": false
+                }
+            ],
+            "bio": "OKC# co-organizer. Senior C#/SQL Server Software Developer at MY Consulting Group. Volunteer for lots of local tech events."
+        }
+    ]
+}
