@@ -1,11 +1,12 @@
 ---
 title: Home
 layout: layouts/base.njk
+head: <link rel="stylesheet" href="/css/modal.css">
 ---
 
 <h1>Join Us</h1>
 
-<p>Free Code Camp - OKC is a group for those who want to learn to code in the Oklahoma City area.</p>
+<p>freeCodeCamp Oklahoma is a group for those who want to learn to code throughout the Oklahoma state area.</p>
 
 <h2 id="meetings">Meetings</h2>
 
@@ -30,13 +31,13 @@ layout: layouts/base.njk
         >
         for additional times and details, and to RSVP to let us know that you’re coming. If this is your first time
         visiting us, feel free to check out our
-        <a href="/newcomers" target="_blank" title="First Timers" rel="external">First Timers</a>
+        <a href="/newcomers" title="Attending Your First Meetup">page for newcomers</a>
         page for some tips on attending your first meetup.
     </p>
-    <div class="meet-image">
+    <figure class="meet-image">
         <img src="/images/parking.png" alt="Parking at StarSpace46" id="parking-image-trigger" />
-        <h6>Parking at StarSpace46</h6>
-    </div>
+        <figcaption>Parking at StarSpace46</figcaption>
+    </figure>
 </div>
 <h2 id="chat">Chat</h2>
 <p>
@@ -54,3 +55,29 @@ layout: layouts/base.njk
     details the expectations that we have for all contributors. We value your participation and hope that by
     communicating these expectations widely we can all enjoy a harassment-free environment.
 </p>
+
+<!-- PARKING MODAL -->
+<div id="parking-modal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="modal-title">Parking at StarSpace 46</span>
+            <span id="close" class="close">x</span>
+        </div>
+        <div class"modal-body">
+            <img src="images/parking.png" alt="Parking at StarSpace46" class="modal-image"/>
+            <div class="modal-text">Parking is available 24/7 on the southside of Sheridan Ave in the large lot catty-corner across the street.<br><br> You are at risk of being ticketed or towed if you park directly in front of the SS46 building Monday thru Friday between 7:30AM and 4:00PM.<br><br> You are allowed to park in front of the SS46 building on weekends or after 4:00PM during the week.</div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        const trigger = $('#parking-image-trigger')
+        const modal = $('#parking-modal')
+        const close = $('#close')
+
+        trigger.click(() => {modal.css({ display: 'block' })})
+
+        close.click(() => modal.css({ display: 'none' }))
+    })
+</script>
