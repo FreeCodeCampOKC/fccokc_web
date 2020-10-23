@@ -532,6 +532,9 @@ label h2 {
     display: none;
     visibility: hidden;
 }
+[id^='toggle-'] + label h2 {
+    cursor: pointer;
+}
 #toggle-youtube + label h2::before {
     content: attr(min-icon);
     font-family: 'FontAwesome';
@@ -799,10 +802,10 @@ label h2 {
     display: none;
 }
 #footer {
+    display: flex;
+    align-items: center;
     margin: 3em 0;
     font-size: 70%;
-    display: block;
-    *zoom: 1;
     line-height: 1.6;
 }
 #footer:after {
@@ -835,9 +838,7 @@ label h2 {
 #footer .footer-blog-title:hover a {
     color: #33a6b8;
 }
-#footer .copyright {
-    display: block;
-}
+
 @media (min-width: 768px) and (max-width: 1040px) {
     #container {
         width: 700px;
@@ -1128,14 +1129,15 @@ img.slack-images {
     display: inline-block;
 }
 
+.person-card p {
+    margin: 0;
+    line-height: normal;
+}
+
 .person-card footer {
     display: flex;
     margin: 0;
     margin-top: 5px;
-}
-
-.person-card footer p {
-    margin: 0;
 }
 
 .person-card footer p:not(:last-child) {
