@@ -1,0 +1,26 @@
+<div class="mobile-nav-panel">
+    <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+</div>
+<header id="header">
+    <div class="mobile-nav-panel">
+        <nav class="nav mobile-nav">
+            <ul>
+                {%- for navItem in navItems-%}
+                    <li {% if page.url == navItem.url %}class="active"{% endif %}>
+                        <a href="{{ navItem.url }}">{{ navItem.displayText }}</a>
+                    </li>
+                {%- endfor -%}
+            </ul>
+        </nav>
+    </div>
+    <p class="blog-title"><a href="index.html">freeCodeCamp OK</a></p>
+    <nav class="nav">
+        <ul>
+            {%- for navItem in navItems-%}
+                <li {% if page.url == navItem.url %}class="active"{% endif %}>
+                    <a href="{{ navItem.url }}">{{ navItem.displayText }}</a>
+                </li>
+            {%- endfor -%}
+        </ul>
+    </nav>
+</header>

@@ -1,0 +1,83 @@
+---
+title: Home
+layout: layouts/base.njk
+head: <link rel="stylesheet" href="/css/modal.css">
+---
+
+<h1>Join Us</h1>
+
+<p>freeCodeCamp Oklahoma is a group for those who want to learn to code throughout the Oklahoma state area.</p>
+
+<h2 id="meetings">Meetings</h2>
+
+<div class="meet-wrapper">
+    <p class="meet-element">
+        We meet up every Sunday afternoon in person at
+        <a href="https://www.starspace46.com/" target="_blank" title="StarSpace46" rel="external">StarSpace46</a> and on
+        <a href="https://www.twitch.tv/techlahoma" target="_blank" title="Techlahoma Twitch" rel="external">Twitch</a>,
+        in order to supplement the
+        <a href="https://www.freecodecamp.org" target="_blank" title="Freecodecamp" rel="external">online learning</a>
+        with in-person guidance and instruction. We do our best to keep you up-to-date and moving forward in your career
+        as web/software developers!<br />
+        <br />
+        Please see our
+        <a
+            href="http://www.meetup.com/FreeCodeCampOK"
+            target="_blank"
+            rel="noopener"
+            title="Meetup FCC OKC"
+            rel="external"
+            >Meetup Page</a
+        >
+        for additional times and details, and to RSVP to let us know that you’re coming. If this is your first time
+        visiting us, feel free to check out our
+        <a href="/newcomers" title="Attending Your First Meetup">page for newcomers</a>
+        page for some tips on attending your first meetup.
+    </p>
+    <figure class="meet-image">
+        <img src="/images/parking.png" alt="Parking at StarSpace46" id="parking-image-trigger" />
+        <figcaption>Parking at StarSpace46</figcaption>
+    </figure>
+</div>
+<h2 id="chat">Chat</h2>
+<p>
+    We also have a
+    <a href="http://slack.techlahoma.org" target="_blank" title="FCC OKC Slack" rel="external">Slack</a> room where we
+    can have real-time discussions and offer help and advice when needed. Not sure how to use Slack? Check out our guide
+    on <a href="/slack">getting started with Slack</a> for more info.
+</p>
+<h2 id="code-of-conduct">Code of Conduct</h2>
+<p>
+    Our
+    <a href="https://www.techlahoma.org/code-of-conduct/" target="_blank" title="Code of Conduct" rel="external"
+        >Code of Conduct &amp; Anti-Harassment Policy</a
+    >
+    details the expectations that we have for all contributors. We value your participation and hope that by
+    communicating these expectations widely we can all enjoy a harassment-free environment.
+</p>
+
+<!-- PARKING MODAL -->
+<div id="parking-modal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="modal-title">Parking at StarSpace 46</span>
+            <span id="close" class="close">x</span>
+        </div>
+        <div class"modal-body">
+            <img src="images/parking.png" alt="Parking at StarSpace46" class="modal-image"/>
+            <div class="modal-text">Parking is available 24/7 on the southside of Sheridan Ave in the large lot catty-corner across the street.<br><br> You are at risk of being ticketed or towed if you park directly in front of the SS46 building Monday thru Friday between 7:30AM and 4:00PM.<br><br> You are allowed to park in front of the SS46 building on weekends or after 4:00PM during the week.</div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        const trigger = $('#parking-image-trigger')
+        const modal = $('#parking-modal')
+        const close = $('#close')
+
+        trigger.click(() => {modal.css({ display: 'block' })})
+
+        close.click(() => modal.css({ display: 'none' }))
+    })
+</script>
