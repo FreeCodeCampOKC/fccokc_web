@@ -8,6 +8,10 @@
         "url": "/slack/"
     },
     {
+        "displayText": "Newcomers",
+        "url": "/newcomers/"
+    },
+    {
         "displayText": "People",
         "url": "/people/"
     },
