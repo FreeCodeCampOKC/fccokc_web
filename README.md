@@ -1,6 +1,6 @@
 # freeCodeCamp Oklahoma Website
 
-A static website cloned from codeforokc, for the Oklahoma city branch of Free Code Camp. Our aim is to teach programming in; HTML, CSS and JavaScript for free.
+The source code for the freeCodeCamp Oklahoma website.
 You can view the website [here](https://www.fccokc.com/).
 
 ## The Team
