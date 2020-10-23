@@ -43,6 +43,22 @@
             "bio": "FreeCodeCampOK co-organizer. Software Engineer at Oracle. Big fan of anime, mechanical keyboards, and PC building."
         },
         {
+            "name": "Kimberly Collins",
+            "contact": [
+                {
+                    "text": "GitHub",
+                    "url": "https://github.com/kacollins",
+                    "link": true
+                },
+                {
+                    "text": "Slack",
+                    "url": "@kimberlycollins",
+                    "link": false
+                }
+            ],
+            "bio": "OKC# co-organizer. Senior C#/SQL Server Software Developer at MY Consulting Group. Volunteer for lots of local tech events."
+        },
+        {
             "name": "Tanner Smith",
             "contact": [
                 {
