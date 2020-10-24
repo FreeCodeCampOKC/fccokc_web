@@ -18,7 +18,7 @@ layout: layouts/base.njk
                 personCard.className = 'person-card'
 
                 let personName = document.createElement('h2')
-                personName.textContent = person.name
+                personName.textContent = person.firstname + ' ' + person.lastname
                 personCard.append(personName)
 
                 let personBio = document.createElement('p')
