@@ -11,14 +11,14 @@ layout: layouts/base.njk
     fetch('/scripts/people.json')
         .then(res => res.json())
         .then(data => {
-            let peopleJSON = data.people
+            let peopleJSON = data.people.sort((a, b) => (a.lastname + a.firstname > b.lastname + b.firstname) ? 1 : -1)
 
             for (let person of peopleJSON) {
                 let personCard = document.createElement('div')
                 personCard.className = 'person-card'
 
                 let personName = document.createElement('h2')
-                personName.textContent = person.name
+                personName.textContent = person.firstname + ' ' + person.lastname
                 personCard.append(personName)
 
                 let personBio = document.createElement('p')
