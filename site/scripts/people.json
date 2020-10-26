@@ -104,6 +104,23 @@
                 }
             ],
             "bio": "Front-end Software Engineer. 🧑🏾‍💻 Always learning. 📕 Passionate about using tech to elevate people and build community. ✊🏿"
+        },
+        {
+            "firstname": "Matthew",
+            "lastname": "Lee",
+            "contact": [
+                {
+                    "text": "GitHub",
+                    "url": "https://github.com/mwlee29",
+                    "link": true
+                },
+                {
+                    "text": "Slack",
+                    "url": "@Matthew Lee",
+                    "link": false
+                }
+            ],
+            "bio": "Self taught programmer. I love making and playing games. Always willing to chat about life, the universe and everything!"
         }
     ]
 }
