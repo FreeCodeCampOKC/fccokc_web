@@ -5,7 +5,7 @@ layout: layouts/base.njk
 
 <h1>Techlahoma Hall of Fame</h1>
 
-{%- for person in people -%}
+{%- for person in people | sort(attribute='lastname') -%}
     <div class="person-card">
         <h2>{{person.firstname}} {{person.lastname}}</h2>
         <p>{{person.bio}}</p>
