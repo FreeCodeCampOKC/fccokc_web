@@ -1,0 +1,24 @@
+---
+title: Techlahoma Hall of Fame
+layout: layouts/base.njk
+---
+
+<h1>Techlahoma Hall of Fame</h1>
+
+{%- for person in people | sort(attribute='lastname') -%}
+    <div class="person-card">
+        <h2>{{person.firstname}} {{person.lastname}}</h2>
+        <p>{{person.bio}}</p>
+        <footer>
+            {%- for contact in person.contact -%}
+                {% if contact.link %}
+                    <p>
+                        <a href="{{contact.url}}">{{contact.text}}</a>
+                    </p>
+                {% else %}
+                    <p>{{contact.text}}: {{contact.url}}</p>
+                {% endif %}
+            {%- endfor -%}
+        </footer>
+    </div>
+{%- endfor -%}
