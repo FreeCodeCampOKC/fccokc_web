@@ -1,6 +1,7 @@
 ---
 title: Resources
 layout: layouts/base.njk
+scripts: <script src="/js/resources.js"></script>
 ---
 
 <input id="toggle-youtube" class="toggle-box" type="checkbox" checked /><label for="toggle-youtube"
@@ -193,9 +194,3 @@ layout: layouts/base.njk
         </li>
     </ul>
 </div>
-
-<script>
-    $('.toggle-box').click(function () {
-        $(this).nextAll('.toggle-div:first').toggleClass('hide-section').toggleClass('show-section')
-    })
-</script>
