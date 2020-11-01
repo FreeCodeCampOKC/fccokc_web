@@ -23,10 +23,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap">
 
     <!-- Defer non-critical FA CSS -->
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	{{ head | safe }}
 </head>
 <body>
@@ -45,15 +43,7 @@
 	</div>
 
     <script defer src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-	<script defer>
-        $('i.fa-bars').click(function() {
-            if($('nav.mobile-nav').css('display') == 'block') {
-                $('nav.mobile-nav').slideUp();
-            } else {
-                $('nav.mobile-nav').slideDown();
-            }
-        })
-    </script>
+	<script defer src="/js/mobile-nav.js"></script>
 
     {{scripts | safe}}
 </body>
