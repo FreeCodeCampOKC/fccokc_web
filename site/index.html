@@ -1,11 +1,7 @@
 ---
 title: Home
 layout: layouts/base.njk
-head: |
-    <link rel="preload" href="/css/modal.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript>
-        <link rel="stylesheet" href="/css/modal.css">
-    </noscript>
+head: <link rel="stylesheet" href="/css/modal.css">
 scripts: <script defer src="/js/modal.js"></script>
 ---
 
@@ -73,8 +69,13 @@ scripts: <script defer src="/js/modal.js"></script>
             <span class="modal-title">Parking at StarSpace 46</span>
             <span id="close" class="close">x</span>
         </div>
-        <div class"modal-body">
-            <img src="images/parking.png" alt="Parking at StarSpace46" class="modal-image"/>
+        <div class="modal-body">
+            <picture id="parking-image-trigger" class="modal-image">
+                <source srcset="/images/parking.webp" type="image/webp">
+                <source srcset="/images/parking.jp2" type="image/jp2">
+                <source srcset="/images/parking.png" type="image/png">
+                <img src="/images/parking.png" alt="Parking at starspace46" loading="lazy">
+            </picture>
             <div class="modal-text">Parking is available 24/7 on the southside of Sheridan Ave in the large lot catty-corner across the street.<br><br> You are at risk of being ticketed or towed if you park directly in front of the SS46 building Monday thru Friday between 7:30AM and 4:00PM.<br><br> You are allowed to park in front of the SS46 building on weekends or after 4:00PM during the week.</div>
         </div>
     </div>
