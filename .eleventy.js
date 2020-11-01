@@ -1,7 +1,7 @@
 module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('site/css')
+    eleventyConfig.addPassthroughCopy('site/js')
     eleventyConfig.addPassthroughCopy('site/images')
-    eleventyConfig.addPassthroughCopy('site/scripts')
     eleventyConfig.addPassthroughCopy({ 'site/_data': 'data' })
 
     eleventyConfig.addNunjucksShortcode('currentYear', function () {

@@ -5,16 +5,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Open Graph & Twitter tags -->
 	<meta property="og:type" content="website">
-    <meta property="og:title" content="freeCodeCamp Oklahoma">
+    <meta property="og:title" content="{{ title + ' - ' if title else '' }}freeCodeCamp Oklahoma">
     <meta property="og:url" content="https://fccokc.com">
     <meta property="og:site_name" content="freeCodeCamp Oklahoma">
     <meta property="og:description" content="freeCodeCamp Oklahoma is a group for those who want to learn to code in the Oklahoma state area.">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="freeCodeCamp Oklahoma">
     <meta name="twitter:description" content="freeCodeCamp Oklahoma is a group for those who want to learn to code in the Oklahoma state area.">
-	
+
 	<title>{{ title + ' - ' if title else '' }}freeCodeCamp Oklahoma</title>
-	
+
 	<!-- favicon -->
 	<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
@@ -22,12 +22,9 @@
     <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-
 	{{ head | safe }}
 </head>
 <body>
-    
 	<div id="container">
 		{% include 'nav.njk' %}
 
@@ -38,10 +35,11 @@
 				</div>
 			</article>
 		</main>
-		
+
 		{% include 'footer.njk' %}
 	</div>
 
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script>
         $('i.fa-bars').click(function() {
             if($('nav.mobile-nav').css('display') == 'block') {
@@ -51,5 +49,7 @@
             }
         })
     </script>
+
+    {{scripts | safe}}
 </body>
 </html>
