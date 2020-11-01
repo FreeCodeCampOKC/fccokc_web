@@ -1,7 +1,11 @@
 ---
 title: Home
 layout: layouts/base.njk
-head: <link rel="stylesheet" href="/css/modal.css">
+head: |
+    <link rel="preload" href="/css/modal.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="/css/modal.css">
+    </noscript>
 scripts: <script src="/js/modal.js"></script>
 ---
 
