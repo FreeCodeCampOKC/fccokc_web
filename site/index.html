@@ -40,7 +40,11 @@ scripts: <script src="/js/modal.js"></script>
         page for some tips on attending your first meetup.
     </p>
     <figure class="meet-image">
-        <img src="/images/parking.png" alt="Parking at StarSpace46" id="parking-image-trigger" />
+        <picture id="parking-image-trigger">
+            <source srcset="/images/parking.webp" type="image/webp">
+            <source srcset="/images/parking.png" type="image/png">
+            <img src="/images/parking.png" alt="Parking at starspace46">
+          </picture>
         <figcaption>Parking at StarSpace46</figcaption>
     </figure>
 </div>
