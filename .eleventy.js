@@ -3,6 +3,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('site/js')
     eleventyConfig.addPassthroughCopy('site/images')
     eleventyConfig.addPassthroughCopy({ 'site/_data': 'data' })
+    eleventyConfig.addPassthroughCopy('_redirects')
 
     eleventyConfig.addNunjucksShortcode('currentYear', function () {
         let currentDate = new Date()
