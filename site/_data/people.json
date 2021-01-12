@@ -120,5 +120,22 @@
             }
         ],
         "bio": "Self taught programmer. I love making and playing games. Always willing to chat about life, the universe and everything!"
+    },    
+    {
+      "firstname": "Devon",
+      "lastname": "Mobley",
+      "contact": [
+        {
+          "text": "GitHub",
+          "url": "https://github.com/devoNOTbevo",
+          "link": true
+        },
+        {
+          "text": "Slack",
+          "url": "@Devon",
+          "link": false
+        }
+      ],
+      "bio": "Full-Stack Software Developer and Solutions Consultant. Self-taught helping others find what they love to do. Community liaison for Techlahoma and entrepreneurship in OKC!"
     }
 ]
