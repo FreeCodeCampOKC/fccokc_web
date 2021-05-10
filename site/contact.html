@@ -1,0 +1,34 @@
+---
+title: Contact Us
+layout: layouts/base.njk
+head: <link rel="stylesheet" href="/css/contact-form.css">
+---
+
+<h1>Contact Us</h1>
+
+<p>
+    You can reach us using any of the following methods or fill out the form below, and we'll try to get back to you as
+    soon as possible!
+</p>
+
+<ul>
+    <li>Email: <a href="mailto:freecodecampokc@gmail.com">freecodecampokc@gmail.com</a></li>
+    <li>Twitter DM: <a href="https://twitter.com/freecodecampok">@FreeCodeCampOK</a></li>
+    <li>Slack: <a href="https://techlahoma.slack.com/archives/CF4C7KKKK">#ug-freecodecampok</a></li>
+</ul>
+
+<form data-netlify="true" method="POST" name="contact" netlify-honeypot="bot-field">
+    <p class="hidden">
+        <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+    </p>
+    <label for="name">
+        Name (optional)
+        <input type="text" name="name" id="name" />
+    </label>
+    <label for="email"> Email (optional)<input type="email" name="email" id="email" /> </label>
+    <label for="message">
+        <span>Message <span class="required">*</span></span>
+        <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+    </label>
+    <button type="submit">Send</button>
+</form>

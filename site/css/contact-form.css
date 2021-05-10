@@ -1,0 +1,29 @@
+form, label {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 10px 8px;
+}
+
+.required {
+    color: red;
+}
+
+form > * {
+    margin-bottom: 15px;
+}
+
+form button {
+    align-self: flex-start;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 8px 15px;
+    border-radius: 3px;
+}
+
+.hidden {
+    display: none;
+}
