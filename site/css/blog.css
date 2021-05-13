@@ -11,3 +11,12 @@ h1 {
     color: #666;
     margin-bottom: 1rem;
 }
+
+ul li {
+    list-style: disc;
+}
+
+ul li ul li {
+    list-style: circle;
+}
+
