@@ -1,0 +1,13 @@
+h1 {
+    margin-bottom: 0.5rem;
+}
+
+.publish-date {
+    margin-bottom: 0;
+}
+
+.author {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 1rem;
+}
