@@ -18,7 +18,7 @@ Thank you everyone for taking some time to give us feedback on the survey. We re
 
 I wanted to start by addressing the most important question (in my opinion), which are the reasons for not attending meetups or being involved with the group.
 
-To those who feel that meetups are intimidating, don't feel like you know enough or belong, or don't know anyone: I totally understand that feeling. When I attended my first meetup at this group in 2017, I felt very intimidated as I didn't know anyone there, had no clue about web development, and am generally quite introverted. I had to take a step out of my comfort zone to attend, but I am very glad did as I've met some amazing people and have since volunteered to help organize the group to give back to the community that helped me get started.
+To those who feel that meetups are intimidating, don't feel like you know enough or belong, or don't know anyone: I totally understand that feeling. When I attended my first meetup at this group in 2017, I felt very intimidated as I didn't know anyone there, had no clue about web development, and am generally quite introverted. I had to take a step out of my comfort zone to attend, but I am very glad I did as I've met some amazing people and have since volunteered to help organize the group to give back to the community that helped me get started.
 
 I'd like to remind everyone that our group is here to help folks get started. We are here to help, even if you have yet to write your first line or code or have no idea how to get started⁠—that's what we're here for!
 
