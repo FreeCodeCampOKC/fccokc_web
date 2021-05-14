@@ -42,7 +42,7 @@ These are vast areas in the industry and there are many topics to go into for ea
     - Fundamentals: HTML, CSS, JavaScript
     - JavaScript Frameworks (React, Vue, Svelte, etc.)
     - UX Design
-    - Accessiblity
+    - Accessibility
 - Back-end Development
     - APIs
     - Databases / SQL
