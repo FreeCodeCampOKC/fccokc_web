@@ -23,11 +23,6 @@ a:hover {
     color: #2a8998;
 }
 
-ol,
-ul {
-    list-style: none;
-}
-
 #header {
     display: flex;
     justify-content: space-between;
@@ -73,6 +68,7 @@ ul {
 }
 .nav li {
     margin: 0.3em 0 0.3em 2em;
+    list-style: none;
 }
 .nav li img {
     vertical-align: middle;
@@ -208,7 +204,7 @@ label h2 {
 #main ul li ul,
 #main ol li ul,
 #main ul li ol,
-#main ol li ol{
+#main ol li ol {
     margin-bottom: 0;
 }
 
