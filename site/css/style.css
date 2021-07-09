@@ -348,7 +348,11 @@ label h2 {
     z-index: 1;
 }
 
-
+img.slack-images {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 /* Social Icon Styling */
 .social-wrapper {
