@@ -348,46 +348,7 @@ label h2 {
     z-index: 1;
 }
 
-/* BEGIN MEETINGS WRAPPER */
-.meet-wrapper {
-    display: grid;
-    grid-template-columns: 3fr 2fr;
-    grid-gap: 1.5em;
 
-    display: -ms-grid;
-    -ms-grid-columns: auto 20px 300px;
-}
-
-.meet-element {
-    -ms-grid-column: 1;
-    -ms-grid-row: 1;
-}
-
-.meet-image {
-    justify-self: center;
-    align-self: center;
-    text-align: center;
-
-    -ms-grid-column: 3;
-    -ms-grid-row: 1;
-}
-
-@media only screen and (max-width: 750px) {
-    .meet-wrapper {
-        grid-template-columns: 1fr;
-    }
-
-    .meet-image {
-        max-width: 85%;
-    }
-}
-
-img.slack-images {
-    margin: 0;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-/* END MEETINGS WRAPPER */
 
 /* Social Icon Styling */
 .social-wrapper {
