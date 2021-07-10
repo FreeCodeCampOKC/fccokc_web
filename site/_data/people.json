@@ -137,5 +137,27 @@
         }
       ],
       "bio": "Full-Stack Software Developer and Solutions Consultant. Self-taught helping others find what they love to do. Community liaison for Techlahoma and entrepreneurship in OKC!"
-    }
+    },
+    {
+        "firstname": "John",
+        "lastname": "Jordan",
+        "contact": [
+            {
+                "text": "Twitter",
+                "url": "https://twitter.com/CodeReborn",
+                "link": true
+            },
+            {
+                "text": "GitHub",
+                "url": "https://github.com/john-jordan",
+                "link": true
+            },
+            {
+                "text": "Slack",
+                "url": "@JohnJordan",
+                "link": false
+            }
+        ],
+        "bio": "Coder. Always learning, easily distracted."
+    }    
 ]
