@@ -159,5 +159,27 @@
             }
         ],
         "bio": "Coder. Always learning, easily distracted."
+    },
+    {
+        "firstname": "Cal",
+        "lastname": "Corbin",
+        "contact": [
+            {
+                "text": "LinkedIn",
+                "url": "https://www.linkedin.com/in/calcorbin",
+                "link": true
+            },
+            {
+                "text": "GitHub",
+                "url": "https://github.com/CalCorbin",
+                "link": true
+            },
+            {
+                "text": "Slack",
+                "url": "@Cal Corbin",
+                "link": false
+            }
+        ],
+        "bio": "Software Engineer at Artemis. Self taught programmer, Sooner graduate. Freetime is devoted to making various smoked meats."
     }    
 ]
