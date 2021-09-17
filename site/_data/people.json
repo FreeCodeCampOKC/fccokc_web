@@ -181,5 +181,22 @@
             }
         ],
         "bio": "Software Engineer at Artemis. Self taught programmer, Sooner graduate. Freetime is devoted to making various smoked meats."
-    }    
+    },
+    {
+        "firstname": "Jake",
+        "lastname": "Fellwock",
+        "contact": [
+            {
+                "text": "GitHub",
+                "url": "https://github.com/jakefellwock",
+                "link": true
+            },
+            {
+                "text": "Slack",
+                "url": "@jakefellwock",
+                "link": false
+            }
+        ],
+        "bio": "Self taught programmer, Musician & Space Enthusiast 🪐 | Always learning and looking to contribute!"
+    }   
 ]
