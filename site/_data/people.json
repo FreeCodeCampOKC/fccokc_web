@@ -19,7 +19,7 @@
                 "link": false
             }
         ],
-        "bio": "FreeCodeCampOK co-organizer. Software Engineer at Anautics. California raised. UCSC Alum, go Slugs!"
+        "bio": "FreeCodeCampOK co-organizer. Software Engineer. California raised. UCSC Alum, go Slugs!"
     },
     {
         "firstname": "Chris",
@@ -41,7 +41,7 @@
                 "link": false
             }
         ],
-        "bio": "FreeCodeCampOK co-organizer. Software Engineer at Oracle. Big fan of anime, mechanical keyboards, and PC building."
+        "bio": "FreeCodeCampOK co-organizer. Software Engineer. Big fan of anime, mechanical keyboards, and PC building."
     },
     {
         "firstname": "Kimberly",
@@ -58,7 +58,7 @@
                 "link": false
             }
         ],
-        "bio": "OKC# co-organizer. Senior C#/SQL Server Software Developer at MY Consulting Group. Volunteer for lots of local tech events."
+        "bio": "Senior C#.NET software engineer and SQL Server database consultant."
     },
     {
         "firstname": "Tanner",
@@ -208,6 +208,22 @@
             }
         ],
         "bio": "Sr. System Administrator and self-taught developer. Love blogging and working on programming projects"
-    }
-
+    },
+    {
+        "firstname": "Jake",
+        "lastname": "Fellwock",
+        "contact": [
+            {
+                "text": "GitHub",
+                "url": "https://github.com/jakefellwock",
+                "link": true
+            },
+            {
+                "text": "Slack",
+                "url": "@jakefellwock",
+                "link": false
+            }
+        ],
+        "bio": "Self taught programmer, Musician & Space Enthusiast 🪐 | Always learning and looking to contribute!"
+    }   
 ]
