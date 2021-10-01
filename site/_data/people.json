@@ -183,6 +183,33 @@
         "bio": "Software Engineer at Artemis. Self taught programmer, Sooner graduate. Freetime is devoted to making various smoked meats."
     },
     {
+        "firstname": "Anthony",
+        "lastname": "Hudspeth",
+        "contact": [
+            {
+                "text": "LinkedIn",
+                "url": " linkedin.com/in/anthony-hudspeth-3331a6141",
+                "link": true
+            },
+            {
+                "text": "GitHub",
+                "url": "https://github.com/ahudspeth199",
+                "link": true
+            },
+            {
+                "text": "website",
+                "url": "https://adminmytech.com",
+                "link": true
+            },
+            {
+                "text": "Slack",
+                "url": "@Anthony Hudspeth",
+                "link": false
+            }
+        ],
+        "bio": "Sr. System Administrator and self-taught developer. Love blogging and working on programming projects"
+    },
+    {
         "firstname": "Jake",
         "lastname": "Fellwock",
         "contact": [
