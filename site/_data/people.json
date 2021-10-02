@@ -248,5 +248,33 @@
 
         ],
         "bio": "Enjoys: programming, Dungeons and Dragons, and the spiciest dad jokes."
+    },
+    {
+        "firstname": "Erich",
+        "lastname": "Keil",
+        "contact": [
+            {
+                "text": "GitHub",
+                "url": "https://github.com/zenlex",
+                "link": true
+            },
+            {
+                "text": "LinkedIn",
+                "url": "https://www.linkedin.com/in/zenlexltd/",
+                "link": true
+            },
+            {
+                "text": "Twitter",
+                "url": "https://twitter.com/erich_keil",
+                "link":true
+            },
+            {
+                "text": "Slack",
+                "url": "@Erich Keil",
+                "link": false
+            }
+
+        ],
+        "bio": "Designer, Developer, Production Manager"
     }
 ]
