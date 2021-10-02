@@ -188,7 +188,7 @@
         "contact": [
             {
                 "text": "LinkedIn",
-                "url": " linkedin.com/in/anthony-hudspeth-3331a6141",
+                "url": "https://linkedin.com/in/anthony-hudspeth-3331a6141",
                 "link": true
             },
             {
@@ -225,5 +225,28 @@
             }
         ],
         "bio": "Self taught programmer, Musician & Space Enthusiast 🪐 | Always learning and looking to contribute!"
-    }   
+    },
+    {
+        "firstname": "Kyle",
+        "lastname": "Enderland",
+        "contact": [
+            {
+                "text": "GitHub",
+                "url": "https://github.com/Kyleenderland",
+                "link": true
+            },
+            {
+                "text": "LinkedIn",
+                "url": "https://www.linkedin.com/in/kyle-enderland-936758157/",
+                "link": true
+            },
+            {
+                "text": "Slack",
+                "url": "@Kyle Enderland",
+                "link": false
+            }
+
+        ],
+        "bio": "Enjoys: programming, Dungeons and Dragons, and the spiciest dad jokes."
+    }
 ]
