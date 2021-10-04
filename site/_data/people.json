@@ -65,8 +65,8 @@
         "lastname": "Smith",
         "contact": [
             {
-                "text": "Twitter",
-                "url": "https://twitter.com/tsmithdev",
+                "text": "LinkedIn",
+                "url": "https://www.linkedin.com/in/stephentannersmith/",
                 "link": true
             },
             {
@@ -80,7 +80,7 @@
                 "link": false
             }
         ],
-        "bio": "Bootcamp graduate and self taught programmer. Software Engineer at Drov Technologies. I make music and practice yoga :)"
+        "bio": "I like playing guitar and working with/on startups. My latest adventure is Fanwave.io"
     },
     {
         "firstname": "Andre",
