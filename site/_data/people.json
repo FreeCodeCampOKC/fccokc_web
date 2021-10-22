@@ -276,5 +276,33 @@
 
         ],
         "bio": "Designer, Developer, Production Manager"
+    },
+    {
+        "firstname": "James",
+        "lastname": "Deaton",
+        "contact": [
+            {
+                "text": "GitHub",
+                "url": "https://github.com/okjed",
+                "link": true
+            },
+            {
+                "text": "LinkedIn",
+                "url": "https://www.linkedin.com/in/jamesdeaton/",
+                "link": true
+            },
+            {
+                "text": "Twitter",
+                "url": "https://twitter.com/jed",
+                "link":true
+            },
+            {
+                "text": "Slack",
+                "url": "@jed",
+                "link": false
+            }
+
+        ],
+        "bio": "Technologist, geek, gadgeteer, southpaw, Okie, addicted to the datastream and all things *nix - with MacOS being close enough."
     }
 ]
